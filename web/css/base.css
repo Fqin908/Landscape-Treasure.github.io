@@ -1,0 +1,208 @@
+/* 声明字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?bk1ujy');
+    src: url('../fonts/icomoon.eot?bk1ujy#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?bk1ujy') format('truetype'),
+        url('../fonts/icomoon.woff?bk1ujy') format('woff'),
+        url('../fonts/icomoon.svg?bk1ujy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+#canvas {
+    position: fixed;
+    width: 1519.3px;
+    top: 0;
+    z-index: 9999;
+    pointer-events: none;
+}
+.banner {
+    box-shadow: 10px 10px 10px 10px #132;
+}
+.w {
+    width: 1519.3px;
+}
+body {
+    position: relative;
+    /* width: 1519.4px !important; */
+    background-color: #ccc;
+}
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+li {
+    list-style: none;
+}
+a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.shortcut {
+    width: 1519.4px;
+    /* height: 750px; */
+    /* border: 1px solid #000; */
+    /* background: url('../images/index_bgd1.jpg') no-repeat; */
+    background-size: 1600px;
+    background-position: 0 -150px;
+}
+.shortcut {
+    width: 1519.4px;
+}
+.shortcut ul {
+    width: 1519.4px;
+    height: 53px;
+    /* border: 1px solid #000; */
+    line-height: 50px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    background-color: #000;
+    transition: all 2s;
+    transform: translateY(0px);
+    clear: both;
+}
+.shortcut ul li {
+    text-align: center;
+    width: 100px;
+    color: #fff;
+    float: left;
+    margin-left: 30px;
+    border: 1px solid rgba(0,0,0,1);
+    border-radius: 7px;
+}
+.shortcut ul li:hover {
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+.shortcut ul li:nth-child(5) {
+    width: 300px;
+    margin-left: 100px;
+}
+.shortcut ul li:nth-child(5) h2 {
+    font-family: 'STXingkai';
+    font-size: 40px;
+}
+.shortcut ul li:nth-child(6) {
+    text-align: left;
+    float: left;
+    margin-left: 100px;
+}
+.shortcut ul li:nth-child(6)::before {
+    float: left;
+    content: '\e918';
+    font-family: 'icomoon';
+    margin-right: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+.shortcut ul li:last-child div {
+    float: left;
+}
+.shortcut .time {
+    float: left;
+    width: 200px;
+    margin-right: 50px;
+}
+.time div {
+    float: left;
+}
+.contact {
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.contact ul {
+    position: absolute;
+    top: 50px;
+    right: -20px;
+    width: 200px;
+    height: 200px;
+    transition: all 2s;
+}
+.contact ul li {
+    width: 36px;
+    height: 36px;
+}
+.contact ul li:hover {
+    cursor: pointer;
+}
+.contact ul li:nth-child(1)::after {
+    content: "\e929";
+    font-family: 'icomoon';
+    font-size: 35px;
+    position: absolute;
+    left: 82px;
+    top: 20px;
+}
+.contact ul li:nth-child(2)::after {
+    content: "\e92a";
+    font-family: 'icomoon';
+    font-size: 35px;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+.contact ul li:nth-child(3)::after {
+    content: "\e927";
+    font-family: 'icomoon';
+    font-size: 35px;
+    position: absolute;
+    left: 42px;
+    top: 144px;
+}
+.contact ul li:nth-child(4)::after {
+    content: "\e91d";
+    font-family: 'icomoon';
+    font-size: 35px;
+    position: absolute;
+    left: 134px;
+    top: 146px;
+}
+.contact ul li:nth-child(5)::after {
+    content: "\eab0";
+    font-family: 'icomoon';
+    font-size: 35px;
+    position: absolute;
+    left: 150px;
+    top: 68px;
+}
+.contact .center::after {
+    content: "\e924";
+    font-family: 'icomoon';
+    font-size: 35px;
+    position: absolute;
+    left: 68px;
+    top: 135px;
+}
+.contact .center:hover {
+    cursor: pointer;
+}
+.footer {
+    margin-top: 5px;
+    height: 415px;
+    background-color: #ccc;
+    padding-top: 30px;
+    margin-bottom: 53px;
+    position: relative;
+}
+.footer h3 {
+    text-align: center;
+}
+.intention {
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 135px;
+    left: 710px;
+}
+.intention pre {
+    position: absolute;
+    top: 60px;
+    left: -290px;
+}

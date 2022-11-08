@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="shortcut icon" href=" ../myico.ico" />
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/register.js"></script>
+</head>
+<body>
+    <h1 class="title">Landscape Treasure</h1>
+    <div class="registerarea">
+        <h3 style=" font-family: 'STXingkai';font-size: 25px;">注册新用户
+            <div class="login" style="font-size: 20px;">我有账户,去<a href="login.html">登录</a>
+            </div>
+        </h3>
+        <div class="reg_form">
+            <form action="">
+                <ul>
+                    <li>
+                        <label for="">用户名：</label>
+                        <input type="text" class="inp" id="username">
+                    </li>
+                    <li>
+                        <label for="">登录密码：</label>
+                        <input type="password" class="inp" id="password">
+                    </li>
+                    <li>
+                        <label for="">确认密码：</label>
+                        <input type="password" class="inp" id="repassword">
+                    </li>
+                    <li>
+                        <input type="submit" value="完成注册" class="btn" onclick="reg()">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="../js/snow.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+body {
+    background: url('../images/sign.jpg') no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#canvas {
+    margin-top: -630px;
+    pointer-events: none;
+}
+li {
+    list-style: none;
+    width: 600px;
+}
+em,
+i {
+    font-style: normal
+}
+a {
+    color: #666;
+    text-decoration: none
+}
+.title {
+    height: 80px;
+    line-height: 80px;
+    text-indent: 1em;
+    border-bottom: 3px solid grey;
+    color: #fff;
+}
+
+.registerarea {
+    top: 0;
+    height: 522px;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 42px;
+    background-color: rgba(0, 0, 0, 0);
+    line-height: 42px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.registerarea h3 .login {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea h3 .login a {
+    color: skyblue;
+}
+
+li span {
+    font-size: 8px;
+}
+.reg_form {
+    width: 600px;
+    height: 100px;
+    margin: 50px auto;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.reg_form ul .safe {
+    padding-left: 168px;
+    margin-top: -15px;
+}
+
+.safe {
+    color: #fff;
+    font-size: 10px;
+}
+
+.safe em {
+    color: #fff;
+    padding: 0 12px;
+}
+
+.safe .ruo {
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: #c81523;
+}
+
+.btn {
+    color: #fff;
+    width: 200px;
+    height: 34px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mod_copyright .links {
+    margin-bottom: 15px;
+}
+
+.mod_copyright .copyright {
+    line-height: 20px;
+}
+#username,
+#password,
+#repassword {
+    color: #000;
+}

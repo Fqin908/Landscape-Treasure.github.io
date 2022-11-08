@@ -1,0 +1,73 @@
+.wf {
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+.tag {
+    color: #fff;
+}
+.shortcut {
+    clear: both;
+}
+.footer {
+    margin-bottom: 10px ;
+}
+#baiye {
+    /* border: 1px solid blue; */
+    overflow: hidden;
+    width: 1250px;
+    clear: both;
+    margin: 0 auto;
+    background-image: url(../images/bg.gif);
+    background-position: 150% 50%;
+}
+#baiye li {
+    float: left;
+    width: 312.5px;
+    height: 500px;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+}
+#baiye li img {
+    width: 1000px;
+    height: 500px;
+}
+.info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+}
+/* .info::before {
+    content: '\e9da';
+    font-family: 'icomoon';
+    margin-right: 20px;
+    font-size: 30px;
+} */
+#baiye:hover li {
+    width: 150px;
+}
+#baiye li:hover {
+    width: 800px;
+}
+.heart {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    color: #fff;
+}
+.heart:hover {
+    cursor: pointer;
+}
+.heart::before {
+    content: '\e9da';
+    font-family: 'icomoon';
+    font-size: 30px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href=" myico.ico" />
+    <title>index</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body onload="check()"></body>
+ <!-- 登录拦截 -->
+    <!-- 快捷导航模块 start-->
+    <div class="shortcut">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="html/collect.html" target="_blank">收藏</a></li>
+            <li><a href="html/login.html">登录</a></li>
+            <li><a href="html/register.html">注册</a></li>
+            <li>
+                <h2>Landscape Treasure</h2>
+            </li>
+            <li>
+                <div>时间</div>
+            </li>
+            <li class="time">
+                <div class="year" style="margin-left: 10px;"></div>
+                <div>/</div>
+                <div class="month"></div>
+                <div>/</div>
+                <div class="date"></div>
+                <div>&ensp;</div>
+                <div class="hour"></div>
+                <div>:</div>
+                <div class="minute"></div>
+                <div>:</div>
+                <div class="second"></div>
+            </li>
+        </ul>
+        <div class="bot_text"></div>
+    </div>
+    <!-- 快捷导航模块 end-->
+    <!-- 头部模块 start -->
+    <div class="header w">
+        <ul class="nav">
+            <li class="reach">立即前往</li>
+            <li><a href="html/first.html" target="_blank">自然景观</a></li>
+            <li><a href="html/second.html" target="_blank">地理地貌</a></li>
+            <li><a href="html/third.html" target="_blank">唯美建筑</a></li>
+            <li><a href="html/fourth.html" target="_blank">动物奇迹</a></li>
+            <li><a href="html/fifth.html" target="_blank">星空之旅</a></li>
+        </ul>
+    </div>
+    <div class="rec">
+        首页推荐
+    </div>
+    <div class="arrows"></div>
+    <div class="recommend">
+        <div class="show">
+            <div class="turn_left"></div>
+            <div class="turn_right"></div>
+            <ul class="slideShow">
+                <li>
+                    <img class="img" src="images/recommend1.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/recommend2.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/recommend3.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/recommend4.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/recommend5.jpg" alt="">
+                </li>
+            </ul>
+            <ul class="circle"></ul>
+        </div>
+    </div>
+    <!-- 头部模块 end -->
+    <!-- 底部模块制作 start -->
+    <footer class="footer">
+        <div class="w">
+            <div>
+                <h3> MADE BY COLLEGE STUDENT </h3>
+            </div>
+            <div style="margin-left: 250px;margin-top: 80px;">
+                <h4>ADDRESS:&nbsp;&nbsp;South China Normal University</h4>
+            </div>
+            <div style="margin-left: 250px;margin-top: 80px;">
+                <h4>THE PRODUCTION TIME:&nbsp;&nbsp;In 2022</h4>
+            </div>
+            <div style="margin-left: 250px;margin-top: 80px;">
+                <h4>SOURCE OF PICTURES:&nbsp;&nbsp;TodayBing</h4>
+            </div>
+            <div class="contact">
+                  CONTACT US
+                <ul class="ctact">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <div class="center"></div>
+            </div>
+            <div class="intention">
+                Original intention
+                <pre>
+                    The world is not lack of beauty,
+
+
+                    but the lack of vision to find beauty.
+
+                    
+                    We need to explore the beauty of the world.
+                </pre>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部模块制作 end -->
+    <canvas id="canvas"></canvas>
+    <script src="js/snow.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/base.js"></script>
+</body>
+
+</html>

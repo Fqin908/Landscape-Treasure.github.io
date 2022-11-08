@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="shortcut icon" href=" ../myico.ico" />
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<canvas id="canvas"></canvas>
+<body>
+    <div class="login">
+        <div class="log">L O G I N</div>
+        <table style="margin-left: 100px;margin-top: 90px;">
+
+            <tbody>
+                <tr>
+                    <td class="ID">用户名:</td>
+                    <td class="ID_input"><input type="text" id="username"></td>
+                </tr>
+                <tr>
+                    <td class="psw">密码:</td>
+                    <td class="psw_input"><input type="password" id="password"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="forget"><a href="forget.html">忘记密码</a></div>
+        <div class="sign"><a href="register.html">前往注册</a></div>
+        <button class="btn_login" onclick="log()">登录</button>
+    </div>
+    <div class="changeBack">切换皮肤</div>
+    <div class="Images">
+        <ul>
+            <li><img src="../images/background1.jpg" alt=""></li>
+            <li><img src="../images/background2.jpg" alt=""></li>
+            <li><img src="../images/background3.jpg" alt=""></li>
+        </ul>
+    </div>
+    <script src="../js/snow.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
