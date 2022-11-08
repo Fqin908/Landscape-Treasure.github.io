@@ -1,2 +1,2 @@
-# website : https://github.com/Fqin908/Landscape-Treasure.github.io/web/index
+# website : https://Fqin908.github.io/Landscape-Treasure.github.io/web
 Landscape-Treasure.github.io
